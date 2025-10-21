@@ -2,6 +2,7 @@
 	import "../main.scss";
 	import "@fontsource/ntr";
 	import Icon from "@iconify/svelte";
+	import favicon from '$lib/assets/favicon.png';
 	import { onMount, onDestroy } from "svelte";
 
 	let { children } = $props();
@@ -44,6 +45,10 @@
 		}
 	});
 </script>
+
+<svelte:head>
+	<link rel="icon" href={favicon} />
+</svelte:head>
 
 <main>
 	<div class="nav">
