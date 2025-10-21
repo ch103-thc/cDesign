@@ -282,10 +282,10 @@
             helped deliver features that improve everyday experiences on the
             web.
         </p> -->
-		<button class="intro-btn">
-			<Icon icon="mdi:instagram" width="24" height="24" />
-			<div class="intro-text">Say hi!</div>
-		</button>
+		<a href="https://www.instagram.com/thc_c04/" target="_blank" rel="noopener noreferrer" class="intro-btn">
+    <Icon icon="mdi:instagram" width="24" height="24" />
+    <div class="intro-text">Say hi!</div>
+</a>
 	</div>
 
 	<div id="about" class="about">
@@ -576,7 +576,7 @@
 			display: inline-flex;
 			align-items: center;
 			gap: 0.5rem;
-			padding: 1rem 2rem;
+			padding: 0.5rem 1.5rem;
 			font-size: 1rem;
 			color: var(--green-bright);
 			background-color: transparent;
@@ -584,6 +584,7 @@
 			cursor: pointer;
 			border-radius: 12px;
 			transition: background-color 0.3s ease;
+			text-decoration: none;
 
 			@media (max-width: 768px) {
 				font-size: 0.8rem;
