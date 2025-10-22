@@ -117,6 +117,14 @@
 	:global(*) {
 		box-sizing: border-box;
 	}
+
+	:global(::selection) {
+		background-color: var(--lightest-navy);
+	}
+
+	:global(::-moz-selection) {
+		background-color: var(--lightest-navy);
+	}
 	
 	main {
 		font-family: "NTR", sans-serif;
