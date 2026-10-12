@@ -291,7 +291,7 @@
 	<div id="about" class="about">
 		<div class="about-content">
 			<div class="section-header">
-				<h3>/ about me</h3>
+				<h3>/ about Chloe</h3>
 				<hr />
 			</div>
 			<p>
@@ -350,7 +350,7 @@
 			</p>
 		</div>
 		<div class="about-image">
-			<img src="img/p.png" alt="Chloe Teo" />
+			<img src="img/profile.png" alt="Chloe Teo" />
 		</div>
 	</div>
 
