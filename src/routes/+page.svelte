@@ -66,7 +66,7 @@
 		ctx.moveTo(x, y);
 		ctx.lineTo(endX, endY);
 		ctx.strokeStyle = 'white';
-		ctx.lineWidth = depth / 4;
+		ctx.lineWidth = Math.max(depth / 4, 1);
 		ctx.stroke();
 
 		// Calculate new length
@@ -350,7 +350,7 @@
 			</p>
 		</div>
 		<div class="about-image">
-			<img src="img/profile.png" alt="Chloe Teo" />
+			<img src="img/p.png" alt="Chloe Teo" />
 		</div>
 	</div>
 
@@ -515,6 +515,7 @@
 		.intro-title {
 			font-size: 5rem;
 			margin-top: -1rem;
+			line-height: 1;
 			color: var(--lightest-slate);
 
 			@media (max-width: 768px) {
@@ -542,7 +543,7 @@
 
 		.intro-subtitle {
 			font-size: 3rem;
-			margin-top: -2rem;
+			line-height: 1.5;
 			color: var(--slate);
 
 			@media (max-width: 768px) {
