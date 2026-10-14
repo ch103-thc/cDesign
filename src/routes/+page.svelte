@@ -173,7 +173,7 @@
 			description1:
 				'A sleek, product-focused storefront for K-Beauty enthusiasts featuring curated products, interactive content, and dynamic visuals. Designed to inspire discovery and drive conversions through affiliate links.',
 			description2: 'Svelte, JavaScript & SCSS',
-			url: 'https://digitalrevivo.com/'
+			url: 'https://digitalrevivo.vercel.app/'
 		},
 		{
 			id: 3,
@@ -291,7 +291,7 @@
 	<div id="about" class="about">
 		<div class="about-content">
 			<div class="section-header">
-				<h3>/ about Chloe</h3>
+				<h3>/ about me</h3>
 				<hr />
 			</div>
 			<p>
